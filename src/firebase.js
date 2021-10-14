@@ -1,14 +1,15 @@
 import * as firebase from "firebase";
 
-var firebaseConfig = {
-    apiKey: "AIzaSyDqY6ShKNmvMZ6SpPffjzBKc2zW6MZggzw",
-    authDomain: "react-crud-262e5.firebaseapp.com",
-    databaseURL: "https://react-crud-262e5.firebaseio.com",
-    projectId: "react-crud-262e5",
-    storageBucket: "react-crud-262e5.appspot.com",
-    messagingSenderId: "766630761998",
-    appId: "1:766630761998:web:eff168790dce0f0cebce5f"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyB9LjntTBbQUSEoyN1JSX4RZAR-T3no3a8",
+  authDomain: "react-9d18d.firebaseapp.com",
+  databaseURL: "https://react-9d18d-default-rtdb.firebaseio.com",
+  projectId: "react-9d18d",
+  storageBucket: "react-9d18d.appspot.com",
+  messagingSenderId: "39880715099",
+  appId: "1:39880715099:web:f456548dc2b16d466c087e",
+  measurementId: "G-812E0HBKZV"
+};
   // Initialize Firebase
   var fireDb = firebase.initializeApp(firebaseConfig);
 
